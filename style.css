@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    background: linear-gradient(#f5d442 0%, #1df241 100%);
+    background-repeat: no-repeat;
+}
+
+#MyImage {
+    border-radius: 50%;
+    width: 300px;
+    height: 375px;
+}
+
+#Welcome {
+    margin-top: 100px;
+}
+
+#MyImage {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    font-family: 'Averia Gruesa Libre', cursive;
+    text-shadow: 2px 2px #88ffff;
+    font-size: 20px;
+}
+
+#Bio {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: cyan;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    font-size: 18px;
+    color: blueviolet;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Verdana';
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.links {
+    float: left;
+    color: red;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Calibri';
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: mediumpurple;
+}
+
+.button {
+    font-size: 24px;
+    color: aqua;
+    background-color: aqua;
+}
+
+#FavoriteCodes {
+    background-color: antiquewhite;
+}
+
+iframe {
+    background-color: lightgreen;
+}
+
+#Work {
+    background-color: chocolate;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+h3 {
+    color: coral;
+}
+
+#Work a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+.contact1 a {
+    color: brown;
+    text-shadow: none;
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+.Map1 {
+    width: 50%;
+}
